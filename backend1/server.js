@@ -12,7 +12,7 @@ import orderRoutes from "./routes/Orderroutes.js";
 import addressRoutes from "./routes/Addressroutes.js";
 import reviewRoutes from "./routes/reviewroutes.js";
 import userRoutes from "./routes/Userroutes.js";
-// ... your route imports ...
+
 
 dotenv.config();
 
@@ -53,7 +53,7 @@ mongoose.connect(process.env.MONGO_URL, {
     console.log("Using sample data - MongoDB not connected");
 });
 
-// ... your routes ...
+.
 
 const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {
